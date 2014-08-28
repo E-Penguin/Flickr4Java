@@ -426,9 +426,7 @@ public class Photo {
      * Sets the number of views for this Photo. For un-authenticated calls this value is not available and will be set to -1.
      * 
      * @param views
-     * @deprecated attribute no longer available
      */
-    @Deprecated
     public void setViews(String views) {
         if (views != null) {
             try {
@@ -442,9 +440,7 @@ public class Photo {
     /**
      * 
      * @param views
-     * @deprecated attribute no longer available
      */
-    @Deprecated
     public void setViews(int views) {
         this.views = views;
     }
@@ -453,9 +449,7 @@ public class Photo {
      * Number of views. Set to -1 if the value is not available.
      * 
      * @return Number of views
-     * @deprecated attribute no longer available
      */
-    @Deprecated
     public int getViews() {
         return views;
     }
